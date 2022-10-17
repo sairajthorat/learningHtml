@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Calculator</title>
+    <script src="calculator.js"></script>
     <style>
       .table {
         font-size: 3em;
@@ -36,7 +37,7 @@
     <table class="table">
       <thead>
         <tr>
-          <th colspan="4"></th>
+          <th id="inputbox" colspan="4"></th>
         </tr>
       </thead>
       <tbody>
@@ -49,21 +50,21 @@
           <td style="background-color: goldenrod">/</td>
         </tr>
         <tr>
-          <td>7</td>
-          <td>8</td>
-          <td>9</td>
+          <td onclick="tap(7)">7</td>
+          <td onclick="tap(8)">8</td>
+          <td onclick="tap(9)">9</td>
           <td style="background-color: goldenrod">*</td>
         </tr>
         <tr>
-          <td>4</td>
-          <td>5</td>
-          <td>6</td>
+          <td onclick="tap(4)">4</td>
+          <td onclick="tap(5)">5</td>
+          <td onclick="tap(6)">6</td>
           <td style="background-color: goldenrod">-</td>
         </tr>
         <tr>
-          <td>1</td>
-          <td>2</td>
-          <td>3</td>
+          <td onclick="tap(1)">1</td>
+          <td onclick="tap(2)">2</td>
+          <td onclick="tap(3)">3</td>
           <td style="background-color: goldenrod">+</td>
         </tr>
         <tr>
