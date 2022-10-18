@@ -1,6 +1,59 @@
+
 .M1{
-    flex-direction: column;
+    display: flex;
+    background-color: black;
+    width: fit-content;
+    
 }
-.R1 {
-flex-direction: column;
+#inputbox{
+    border: 10px solid black;
+    width: 5cm;
+    height: 2cm;
+}
+.num {
+    font-size: 4em;
+    color: aliceblue;
+    border: 10px solid black;
+    border-radius: 100px;
+    background-color:rgb(54, 54, 54);
+    text-align: center;
+    padding-top: 15px;
+    width: 3cm;
+    height: 2.8cm;
+    text-align: center;
+}
+.sign{
+    font-size: 4em;
+    color: aliceblue;
+    border: 10px solid black;
+    border-radius: 100px;
+    background-color: goldenrod;
+    padding-top: 15px;
+    width: 3cm;
+    height: 2.8cm;
+    text-align: center;
+}
+.op{
+    font-size: 4em;
+    color: black;
+    border: 10px solid black;
+    border-radius: 100px;
+    background-color: rgb(161, 161, 161);
+    padding-top: 15px;
+    width: 3cm;
+    height: 2.8cm;
+    text-align: center;
+}
+.zero{
+    font-size: 4em;
+    color: aliceblue;
+    border: 10px solid black;
+    border-radius: 100px;
+    background-color:rgb(54, 54, 54);
+    text-align: center;
+    padding-top: 15px;
+    width: 3cm;
+    height: 2.8cm;
+    text-align: center;
+    
 }
