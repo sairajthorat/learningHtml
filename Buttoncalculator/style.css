@@ -1,0 +1,52 @@
+.whole{
+    background-color: black;
+    width: fit-content;
+}
+
+/* .num{
+    font-size: 3em;
+    width: 3cm;
+}
+.sign{
+    font-size: 3em;
+    width: 3cm;
+}
+
+.op{
+    font-size: 3em;
+    width: 3cm;
+} */
+.num {
+    font-size: 3em;
+    color: aliceblue;
+    border: 10px solid black;
+    border-radius: 100px;
+    background-color:rgb(54, 54, 54);
+    text-align: center;
+    padding-top: 15px;
+    width: 3cm;
+    height: 2.8cm;
+    text-align: center;
+}
+.sign{
+    font-size: 3em;
+    color: aliceblue;
+    border: 10px solid black;
+    border-radius: 100px;
+    background-color: goldenrod;
+    padding-top: 15px;
+    width: 3cm;
+    height: 2.8cm;
+    text-align: center;
+}
+.op{
+    font-size: 3em;
+    color: black;
+    border: 10px solid black;
+    border-radius: 100px;
+    background-color: rgb(161, 161, 161);
+    padding-top: 15px;
+    width: 3cm;
+    height: 2.8cm;
+    text-align: center;
+}
